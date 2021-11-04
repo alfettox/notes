@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans:ital,wght@0,200;0,700;1,300&family=Exo+2:ital,wght@0,100;0,300;0,600;1,100;1,300&display=swap');
+
+* {
+    font-family:Alumni;
+    box-sizing:border-box;
+}
+
+body {
+    background-color:rgba(127, 128, 96, 0.849);
+    display:flex;
+    flex-wrap:wrap;
+    font-family:inherit;
+    margin: 0;
+    padding-top: 30px;
+}
+
+.notes {
+    background-color:rgba(91, 131, 28, 0.699);
+    box-shadow: 0 0 30px 30px rgba(91, 131, 32);
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: .4rem .4rem;
+    top: 1 rem;
+    right: 1 rem;
+    }
+
+.notes .hidden {
+    display: none;
+}
+
+.notes .tools {
+    background-color:orange;
+    border: none;
+    color:red;
+    font-size: 1rem;
+    margin: .4rem;
+}
+
+.notes .main{
+    background-color:rgba(#701313);
+    overflow: hidden;
+    height: 400px;
+    width: 300px;
+
+}
+
+button {
+    background-color:transparent;
+    border:none;
+    cursor:pointer;
+    font-size:1rem;
+    color: red;
+
+}
+
+.notes .textarea {
+    outline:none;
+    font-size: 1rem;
+
+    margin: 20px;
+    width: 500px;
+    height: 500px;
+    border: none;
+    font-family: inherit;
+}
+
+.notes .hidden{
+    display:none;
+    }
